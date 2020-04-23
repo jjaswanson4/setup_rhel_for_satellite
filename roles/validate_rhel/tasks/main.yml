@@ -1,3 +1,4 @@
 ---
 
 - import_tasks: validate-rhel.yml
+- import_tasks: confirm-validation.yml

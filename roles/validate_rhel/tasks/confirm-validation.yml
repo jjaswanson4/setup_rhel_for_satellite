@@ -1,0 +1,5 @@
+---
+
+- name: confirm this host is valid
+  debug:
+    msg: "This is a valid host for satellite or capsule"
