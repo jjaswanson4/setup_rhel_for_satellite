@@ -1,0 +1,20 @@
+namespace: jjaswanson4
+name: setup_rhel_for_satellite
+version: 1.0.0
+readme: README.md
+authors:
+- Josh Swanson <jswanson@redhat.com>
+- Scott Danielson <sdaniels@redhat.com>
+- Rodrique Heron <rheron@redhat.com>
+description: This collection validates and set up a RHEL host to run satellite 6
+license:
+- GPL-2.0-or-later
+tags:
+  - rhel7
+  - satellite6
+  - setup_rhel_for_satellite
+dependencies: {}
+repository: http://example.com/repository
+documentation: http://docs.example.com
+homepage: http://example.com
+issues: http://example.com/issue/tracker
