@@ -1,0 +1,15 @@
+---
+
+- name: setup server to be satellite or a capsule
+  hosts:
+    - satellite
+    - capsule
+  become: true
+  collections:
+    - jjaswanson4.setup_rhel_for_satellite
+  pre_tasks:
+    - name: load in satellite vars
+      include_vars:
+        file: "{{ vars_file }}"
+  roles:
+    - jjaswanson4.setup_rhel_for_satellite.validate_rhel
