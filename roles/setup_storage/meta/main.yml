@@ -1,0 +1,9 @@
+galaxy_info:
+  author: Josh Swanson
+  description: Setup storage on a RHEL7 host to run satellite
+  license: GPL-2.0
+  min_ansible_version: 2.9
+  galaxy_tags:
+    - satellite6
+
+dependencies: []
