@@ -1,6 +1,6 @@
 namespace: jjaswanson4
 name: setup_rhel_for_satellite
-version: 1.0.0
+version: 1.0.1
 readme: README.md
 authors:
 - Josh Swanson <jswanson@redhat.com>
@@ -14,7 +14,7 @@ tags:
   - satellite6
   - setup_rhel_for_satellite
 dependencies: {}
-repository: http://example.com/repository
-documentation: http://docs.example.com
-homepage: http://example.com
-issues: http://example.com/issue/tracker
+repository: https://github.com/jjaswanson4/setup_rhel_for_satellite
+documentation: https://github.com/jjaswanson4/setup_rhel_for_satellite/blob/master/README.md
+homepage: https://github.com/jjaswanson4/setup_rhel_for_satellite
+issues: https://github.com/jjaswanson4/setup_rhel_for_satellite/issues
