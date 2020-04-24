@@ -2,6 +2,8 @@
 
 Ansible collection for validating a RHEL host to run satellite.
 
+This collection is also available on [ansible galaxy](https://galaxy.ansible.com/jjaswanson4/setup_rhel_for_satellite).
+
 ## Overview
 This collection will validate a RHEL7 host against the [system requirements](https://access.redhat.com/documentation/en-us/red_hat_satellite/6.7/html/installing_satellite_server_from_a_connected_network/preparing-environment-for-satellite-installation#system-requirements_satellite) and [storage requirements](https://access.redhat.com/documentation/en-us/red_hat_satellite/6.7/html/installing_satellite_server_from_a_connected_network/preparing-environment-for-satellite-installation#satellite-storage-requirements_satellite) for running satellite.
 
