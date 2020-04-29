@@ -16,7 +16,7 @@ If a system passes validation, LVM will be configured according to the following
 
 ## Usage
 The best way to consume this collection is to set up a requirements.yml:
-```
+```yaml
 ---
 collections:
   - jjaswanson4.setup_rhel_for_satellite
@@ -31,7 +31,7 @@ ansible-galaxy collection install jjaswanson4.setup_rhel_for_satellite
 - Vars examples can be found in playbooks/vars
 
 ## Vars
-```
+```yaml
 satellite:
   version: 6.7
   admin_username: admin
@@ -74,7 +74,7 @@ satellite:
 
 ## Inventory Structure
 For this collection, it doesn't matter if you're building a satellite server or a capsule server, the LVs will be collected and created. It's a good idea to break out satellite servers vs. capsule servers and specify their var files so each will be built according to their own specifications:
-```
+```yaml
 [satellite]
 satellite67.josh.lab.msp.redhat.com vars_file=/home/jswanson/ansible/satellite6.7-collections/satellite67.josh.lab.msp.redhat.com.vars.yml ansible_user=root
 
